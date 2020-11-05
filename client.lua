@@ -261,7 +261,7 @@ Citizen.CreateThread(function()
             lastWeather = weatherType
             SetWeatherTypeOverTime(weatherType, 15.0)
             SetRainLevel(rain)
-            Citizen.Wait(10000)
+            Citizen.Wait(15000)
         end
         Citizen.Wait(100)
         ClearOverrideWeather()
