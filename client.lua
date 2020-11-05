@@ -1,4 +1,5 @@
-local windSpeed, windDirection, weatherType, lastWeather, rain
+local windSpeed, windDirection, weatherType, rain
+local lastWeather = "OVERCAST"
 
 local weatherTypes = {
  [1000] = {
